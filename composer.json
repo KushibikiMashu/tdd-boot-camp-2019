@@ -1,0 +1,7 @@
+{
+    "name": "matthew/tdd-boot-camp-2019",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    }
+}

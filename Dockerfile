@@ -19,7 +19,6 @@ RUN set -eux && \
 
 # config
 COPY config/php.ini /usr/local/etc/php/php.ini
-COPY config/docker-php-ext-xdebug.ini /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
 # composer
 ENV COMPOSER_ALLOW_SUPERUSER 1
